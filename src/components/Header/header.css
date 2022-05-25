@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.tag {
+  display: flex;
+  background: rgb(99, 109, 241);
+  height: 19vh;
+  border-radius: 0 0 0 5rem;
+  border: 0.2rem solid rgb(99, 109, 241);
+  box-shadow: 0rem 0rem 3rem 1.5rem rgb(161, 156, 156);
+}
+
+h2 {
+  color: white;
+  padding-left: 6rem;
+  padding-top: 2.6rem;
+  font-size: 4vmin;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+  color: white;
+  padding-left: 53rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 3rem;
+}
+.course1 {
+  display: flex;
+  width: 50vw;
+  height: 6vh;
+
+  justify-content: center;
+  align-items: center;
+  margin-left: 22rem;
+  margin-top: -1.2rem;
+  border: 0.1rem solid white;
+  border-radius: 0 0.4rem 0 0.4rem;
+  background: white;
+  box-shadow: 0rem 0.2rem 0.5rem 0rem rgb(161, 156, 156);
+}
+.from {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+select {
+  appearance: none;
+
+  width: 11.5vw;
+  height: 4.5vh;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.2vmin;
+  border: 0rem solid white;
+  box-shadow: 0rem 0.2rem 0.5rem 0rem rgb(161 156 156);
+  cursor: pointer;
+}
+.tag3 {
+  padding-left: 0.5rem;
+}
+.tag4 {
+  padding-left: 0.5rem;
+}
+.tag5 {
+  padding-left: 0.5rem;
+  font-weight: bold;
+}
+.input {
+  padding-left: 1rem;
+  display: flex;
+  gap: 1.5rem;
+}
+.box {
+  font-size: 0.9rem;
+  padding-top: 0.2rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  height: 1.5rem;
+  width: 4rem;
+  background: rgb(226, 133, 226);
+  border: 0;
+  color: white;
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0.3rem;
+  box-shadow: 0rem 0.1rem 0.3rem 0rem rgb(161 156 156);
+  margin-right: 0.3rem;
+}
